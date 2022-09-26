@@ -1,11 +1,12 @@
 {
-
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "homepage": "https://luismanzano.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "gh-pages": "^4.0.0",
     "save-dev": "^0.0.1-security"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
